@@ -1,0 +1,13 @@
+name = "TracePrecompiles"
+uuid = "38bac4f8-4cef-4ea5-b8b2-a80987b7dd0a"
+authors = ["SimonDanisch"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
