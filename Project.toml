@@ -3,6 +3,9 @@ uuid = "38bac4f8-4cef-4ea5-b8b2-a80987b7dd0a"
 authors = ["SimonDanisch"]
 version = "0.1.0"
 
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
 [compat]
 julia = "1"
 

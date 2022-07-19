@@ -1,7 +1,9 @@
 module TracePrecompiles
 
+using Pkg
+
 function run_julia(cmd)
-    current_proj = unsafe_string(Base.JLOptions().project)
+    current_proj = Pkg.project().path
     run(`$(Base.julia_cmd()) --project=$(current_proj) --startup-file=no $(cmd)`)
 end
 
